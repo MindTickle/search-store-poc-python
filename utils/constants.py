@@ -1,0 +1,11 @@
+DELETE_OPERATION="delete"
+INSERT_OPERATION="insert"
+UPDATE_OPERATION="update"
+
+APP_NAME = 'search-store'
+BATCH_DURATION = 1 # in seconds
+TOPIC= 'test1'
+PARTITION=0
+START=14300
+
+KAFKA_BROKER = 'localhost:9092'
